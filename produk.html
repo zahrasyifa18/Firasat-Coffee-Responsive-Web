@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Bootstrap demo</title>
+
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+		
+		<!-- Jqwery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		
+		<!--Font Awesome-->
+		<script src="https://kit.fontawesome.com/7d90d49287.js" crossorigin="anonymous"></script>
+	</head>
+	
+	<body>
+		<!-- Navigasi -->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3 stiky">
+			<div class="container pr-3 pl-3">
+				<div>
+					<img src="assets/logo2" alt="gambar" height="50px" ><a class="navbar-brand" href="#">&nbsp;&nbsp;Firasat Coffee</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse d-lg-flex justify-content-lg-end align-items-lg-center" id="navbarNavAltMarkup">
+					<div class="navbar-nav pr-3">
+						<a class="nav-link" aria-current="page" href="home.html">Home</a>
+						<a class="nav-link" href="about.html">About</a>
+						<a class="nav-link active" href="produk.html">Product</a>
+						<a class="nav-link" href="testimoni.html">Testimoni</a>
+						<a class="nav-link" href="contact.html">Contact</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Produk -->
+		<section class="product" id="product">
+			<div class="container">
+				<!--Menu Best Seller  -->
+				<div class="text-center text-white menu">
+					<h1 class="pb-3 fw-bold">OUR MENU BEST SELLER</h1>
+					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quos, placeat cum voluptas rem nisi.
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quos, placeat cum voluptas rem nisi. 
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quos, placeat cum voluptas rem nisi.</p>
+				</div>
+				<div class="d-flex row produk">
+					<div class="col-lg-4 col-md-6 my-3">
+						<div class="card mx-auto">
+							<div class="img-box justify-content-center text-center ">
+								<img src="assets/coffe1" class="img-fluid" alt="...">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center fw-bold">KOPI HITAM</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere?</p>
+								<div class="d-flex justify-content-between pt-2">
+									<p class="pt-2 fw-bold harga">Rp. 15.000</p>
+									<div>
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+											Beli Coffe
+										</button>
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+														<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+													</div>
+													<div class="modal-body">
+														Jika ingin memesan silahkan klik tombol pesan !!!!
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+														<button type="button" class="btn btn-danger">Pesan</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-4 col-md-6 my-3">
+						<div class="card mx-auto">
+							<div class="img-box justify-content-center text-center">
+								<img src="assets/coffe2"  class="img-fluid" alt="...">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center fw-bold">KOPI ACEH</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor, consectetur adipisicing elit. Voluptatum, modi!</p>
+									<div class="d-flex justify-content-between pt-2">
+										<p class="pt-2 fw-bold harga">Rp. 27.000</p>
+										<div>
+											<!-- Button trigger modal -->
+											<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+												Beli Coffe
+											</button>
+											<!-- Modal -->
+											<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+															<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+														</div>
+														<div class="modal-body">
+															Jika ingin memesan silahkan klik tombol pesan !!!!
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+															<button type="button" class="btn btn-danger">Pesan</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-lg-4 col-md-6 my-3">
+						<div class="card mx-auto">
+							<div class="img-box justify-content-center text-center">
+								<img src="assets/coffe3"  class="img-fluid" alt="...">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center fw-bold">KOPI LATTE</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eius?</p>
+								<div class="d-flex justify-content-between pt-2">
+									<p class="pt-2 fw-bold harga">Rp. 20.000</p>
+								</div>
+									<!-- Button trigger modal -->
+									<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+										Beli Coffe
+									</button>
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+													Jika ingin memesan silahkan klik tombol pesan !!!!
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-danger">Pesan</button>
+												</div>
+											</div>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<!-- Banner -->
+				<div class="row banner">
+					<div class="col-lg-6 text-center text-white p-5">
+						<p class="fw-bold">Firasat Coffe</p>
+						<h3 class="fw-bold">Discont Spesial 20 % Setiap Hari Jum'at</h3>
+						<p class="pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, nulla. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi obcaecati fugit ipsa eum exercitationem adipisci.</p>
+					</div>
+					<div class="col-lg-6 p-2">
+					   <img src="assets/bannerdiskon" class="img-fluid" alt="">
+					</div>
+				</div>
+				<!-- New Produk -->
+				<div class="text-center text-white pt-5">
+					<h1 class="pb-5 fw-bold">New Product Coffe and Food</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi labore quisquam necessitatibus voluptas. Dolores? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos sequi labore quisquam necessitatibus voluptas. Dolores?</p>
+				</div>
+				<div class="d-flex row produk">
+					<div class="col-lg-4 col-md-6 my-3 new-produk">
+						<div class="card mx-auto">
+							<div class="img-box justify-content-center text-center ">
+								<img src="assets/coffe4"  class="img-fluid" alt="...">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center fw-bold">KOPI KAPUCINO</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere?</p>
+								<div class="d-flex justify-content-between pt-2">
+									<p class="pt-2 fw-bold harga">Rp. 35.000</p>
+									<div>
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+											Beli Coffe
+										</button>
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+													Jika ingin memesan silahkan klik tombol pesan !!!!
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-danger">Pesan</button>
+												</div>
+											</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 my-3 new-produk">
+						<div class="card mx-auto">
+							<div class="img-box justify-content-center text-center ">
+								<img src="assets/coffe5"  class="img-fluid" alt="...">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center fw-bold">KOPI AMERICANO</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere?</p>
+								<div class="d-flex justify-content-between pt-2">
+									<p class="pt-2 fw-bold harga">Rp. 22.000</p>
+									<div>
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+											Beli Coffe
+										</button>
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+													Jika ingin memesan silahkan klik tombol pesan !!!!
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+													<button type="button" class="btn btn-danger">Pesan</button>
+												</div>
+											</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 my-3 new-produk">
+						<div class="card mx-auto">
+							<div class="img-box justify-content-center text-center">
+								<img src="assets/coffe6"  class="img-fluid" alt="...">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center fw-bold">KOPI ESPRESSO</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eius?</p>
+								<div class="d-flex justify-content-between pt-2">
+									<p class="pt-2 fw-bold harga">Rp. 15.000</p>
+									<div>
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+											Beli Coffe
+										</button>
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+														<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+													</div>
+													<div class="modal-body">
+														Jika ingin memesan silahkan klik tombol pesan !!!!
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+														<button type="button" class="btn btn-danger">Pesan</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 my-3 new-produk">
+						<div class="card mx-auto">
+							<div class="img-box justify-content-center text-center">
+								<img src="assets/coffe7"  class="img-fluid" alt="...">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center fw-bold">FRENCH FRIES</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eius?</p>
+								<div class="d-flex justify-content-between pt-2">
+									<p class="pt-2 fw-bold harga">Rp. 17.000</p>
+									<div>
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+											Beli Coffe
+										</button>
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+														<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+													</div>
+													<div class="modal-body">
+														Jika ingin memesan silahkan klik tombol pesan !!!!
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+														<button type="button" class="btn btn-danger">Pesan</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 my-3 new-produk">
+						<div class="card mx-auto">
+							<div class="img-box justify-content-center text-center ">
+								<img src="assets/coffe8" class="img-fluid" alt="...">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center fw-bold">SPAGGETI</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere?</p>
+								<div class="d-flex justify-content-between pt-2">
+									<p class="pt-2 fw-bold harga">Rp. 30.000</p>
+									<div>
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+											Beli Coffe
+										</button>
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+														<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+													</div>
+													<div class="modal-body">
+														Jika ingin memesan silahkan klik tombol pesan !!!!
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+														<button type="button" class="btn btn-danger">Pesan</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 my-3 new-produk">
+						<div class="card mx-auto">
+							<div class="img-box justify-content-center text-center ">
+								<img src="assets/coffe9" class="img-fluid" alt="...">
+							</div>
+							<div class="card-body">
+								<h5 class="card-title text-center fw-bold">POTATO WADGES</h5>
+								<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere?</p>
+								<div class="d-flex justify-content-between pt-2">
+									<p class="pt-2 fw-bold harga">Rp. 26.000</p>
+									<div>
+										<!-- Button trigger modal -->
+										<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+											Beli Coffe
+										</button>
+										<!-- Modal -->
+										<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h1 class="modal-title fs-5" id="exampleModalLabel">Apakah Yakin Ingin Memesan ?</h1>
+														<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+													</div>
+													<div class="modal-body">
+														Jika ingin memesan silahkan klik tombol pesan !!!!
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+														<button type="button" class="btn btn-danger">Pesan</button>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col text-center new-produk">
+						<div class="card">
+							<p>-----------Tidak Ada Produk-------------</p>
+						</div>
+					</div>
+					<div class="btn-load text-center mt-4">
+						<a href="" class="btn btn-dark"> Load More</a>
+					</div>
+				</div>
+		</section>
+		
+		<!-- Footer -->
+		<footer Class="footer p-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-4 fw-bold py-3 text-white">
+						<h4>FIRASAT COFFEE</h4>
+						<h5>Get out there & discover your next cacation, forest & destination!</h5>
+						<h6>Copyright 2022 Firasat Coffee, Inc. Terms & Privacy</h6>
+					</div>
+					
+					<div class="col-lg-3 col-md-5 col1 fw-bold py-3 text-white">
+						<h4>MORE ON THE BLOG</h4>
+						<div class="d-flex flex-column justify-content-between col1">
+							<a class="py-1 fw-bold" href="">About Us</a>
+							<a class="py-1 fw-bold" href="">Privacy Policy</a>
+							<a class="py-1 fw-bold" href="">Write For Us</a>
+							<a class="py-1 fw-bold" href="">Contact Us</a>
+						</div>
+					</div>
+					
+					<div class="col-lg-3 col-md-3 fw-bold py-3 text-white">
+						<h4>CONTACT</h4>
+						<br>
+						<div class="media d-flex">
+							<a href=""><i class="fa-brands fa-square-instagram mr-2"></i></a>
+							<a href=""><i class="fa-brands fa-square-facebook mr-2"></i></a>
+							<a href=""><i class="fa-brands fa-square-whatsapp mr-2"></i></a>
+							<a href=""><i class="fa-brands fa-square-google-plus mr-2"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	</body>
+</html>
